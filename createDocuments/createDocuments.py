@@ -22,7 +22,7 @@ def call(query):
   response.raise_for_status()
   return response.json()
 
-# Delete the document
+# Create the document
 def createDocument(id, name, url):
   query = """
     mutation {
